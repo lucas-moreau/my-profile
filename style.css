@@ -1,0 +1,92 @@
+ body {
+	background-color: rgba(200,200,200,0.7);
+	color: rgba(0,0,0,1);
+	font-weight: lighter;
+	font-size: 12px;
+	font-family: Helvetica;
+	text-align: center;
+	line-height: 30px;
+
+}
+
+h1, h2, a, head {
+	font-family: Courier;
+}
+
+h1 {
+	color: rgba(255,155,44,1);
+	font-size: 32px;
+}
+h2 {
+	font-weight: lighter;
+	font-size: 24px;
+	color: rgb(100,100,100);
+}
+.link {
+	text-decoration: none;
+	color: rgba(255,155,44,0.5);
+	font-weight: bold;
+}
+
+a:hover {
+	color: rgba(255,155,44,1);
+	text-decoration: underline;
+}
+
+div {
+	background : #FEFEFE;
+	padding: 60px;
+	border-radius: 4px;
+	box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+	width: 300px;
+	margin: 50px auto;
+}
+.photo {
+	width: 150px;
+	border-radius : 25px;
+}
+
+.container {
+	width: 700px;
+	margin: 40px auto;
+}
+
+.card-white {
+	background-color: white;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.2);
+	border-radius: 30px;
+}
+
+
+@media (max-width: 760px) {
+	.container {
+		width: 600px;
+	}
+}
+
+@media (max-width: 500px) {
+	.container {
+		width: 400px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
